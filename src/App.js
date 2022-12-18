@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
-import PlanetList from './Components/PlanetList'
+import ColorChanger from './Components/ColorChanger';
 function App(){
   return(
     <div>
-      <PlanetList/>
+      <ColorChanger/>
     </div>
   )
 }
